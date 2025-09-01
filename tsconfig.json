@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "ESNext",
+    "module": "nodenext",
     "moduleResolution": "nodenext",   // ⬅️ important
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
