@@ -1,0 +1,49 @@
+{
+  "name": "fabric-canvas-export",
+  "version": "1.0.0",
+  "description": "Node.js project to create Fabric.js canvas and export as PNG base64",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "clean": "rm -rf dist",
+    "api": "node --loader ts-node/esm src/api.ts"
+  },
+  "keywords": [
+    "fabric",
+    "canvas",
+    "export",
+    "png",
+    "base64"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@layerhub-io/react": "^0.3.2",
+    "@layerhub-io/react-custom-scrollbar": "^0.0.1",
+    "@layerhub-io/use-timer": "^0.1.1",
+    "aws-sdk": "^2.1574.0",
+    "canvas": "^3.2.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "express": "^4.18.2",
+    "fabric": "^5.3.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^4.0.2",
+    "sharp": "^0.34.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@layerhub-io/types": "^0.3.0",
+    "@types/express": "^4.17.21",
+    "@types/fabric": "^5.3.10",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
